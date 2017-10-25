@@ -3346,6 +3346,7 @@ module.exports = function(obj, fn){
 
 document.addEventListener('DOMContentLoaded', () => {
   const socket = __webpack_require__(22)();
+  console.log(socket.io);
 });
 
 
